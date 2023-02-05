@@ -3,11 +3,11 @@
 #git commit -m ""
 #git push 
 
-x = 2
-print(x == 2) # prints out True
+x = 2 #assignment
+print(x == 2) # prints out True (= is an assignment == is comparative)
 print(x == 3) # prints out False
 print(x < 3) # prints out True
-
+print(x <=2)
 #variable assignment uses only one =
 #however comparision requires 2 ==
 
@@ -22,7 +22,7 @@ if name == "John" or name == "Rick":
 # and and or are operators allow building complex  expressions, for example
 
 if name in ["John", "Rick"]:
-    print("Your name is either John or Rick.")
+    print("Your name is either John or Rick.") #checks the name if john is within the list so prints
 
 #The "operator in can be used to check if a specified object exists within an object container, such as a list:
 
@@ -42,7 +42,8 @@ x = 2
 if x == 2:
     print("x equals two!")
 else:
-    print("x does not equal to two.")
+    print("x does not equal to two.") #if is always first conditon and you don't have to always have an else but you can only use one
+    
 
 #Python uses indentation to define code blocks, instead of brackets. The standard Python indentation is 4 spaces
 x = [1,2,3]
